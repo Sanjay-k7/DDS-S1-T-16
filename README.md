@@ -1,5 +1,5 @@
 # DDS
-# Write your mini-project title
+# Game of Mines
 
 <!-- First Section -->
 ## Team Details
@@ -8,13 +8,13 @@
 
   > Semester: 3rd Sem B. Tech. CSE
 
-  > Section: S1/S2
+  > Section: S1
 
-  > Member-1: Name, Roll No., email
+  > Member-1: G.Aravind, 231CS124, gurugubelliaravind.231cs124@nitk.edu.in
 
-  > member-2: Name, Roll No., email
+  > member-2: K Sanjay Abhiroop, 231CS128, karumanchisanjay.231cs128@nitk.edu.in
 
-  > Member-3: Name, Roll No., email
+  > Member-3: Pranav Gujjar, 231CS143, pranavgujjar.231cs143@nitk.edu.in
 </details>
 
 <!-- Second Section -->
