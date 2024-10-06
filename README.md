@@ -38,13 +38,16 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 
 ## FEATURES:
 
-1. Use a random number generator circuit i.e,Linear Feedback Shift Register (LFSR) to select random spots in which bombs will be placed.
+• Use a random number generator circuit i.e,Linear Feedback Shift Register (LFSR) to select random spots in which bombs will be placed.
 
-2. Then we will use D flip-flops to represent each of the spots.
+• Then we will use D flip-flops to represent each of the spots.
 
-3. Then we will implement a multiplexer system to allow player to select spots and the output will decide whether the chosen spot is safe or not.
+• Then we will implement a multiplexer system to allow player to select spots and the output will decide whether the chosen spot is safe or not.
 
-4. Then a counter will be used to determine whether the user has given input to all the spots other than the ones with bombs.
+• Then a counter will be used to determine whether the user has given input to all the spots other than the ones with bombs.
+
+• Demo evaluation: The objective is to design a circuit that randomly selects one of the spots as bomb and implement a system that allows the user to enter their choices of spots and check if the bomb is in that 
+                   spot. The user loses if he selects a spot with the bomb or else the user will win if he chooses all the spots without the bomb.
 
 </details>
 
