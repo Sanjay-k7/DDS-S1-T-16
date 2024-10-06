@@ -1,22 +1,21 @@
-# DDS
-# Game of Mines
+# GAME OF MINES
 
 <!-- First Section -->
 ## Team Details
-<details>
+<details> 
   <summary>Detail</summary>
 
   > Semester: 3rd Sem B. Tech. CSE
 
   > Section: S1
-
-  > Team ID: S1_T-16
+>   Team ID: S1_T-16
 
   > Member-1: G.Aravind, 231CS124, gurugubelliaravind.231cs124@nitk.edu.in
 
-  > member-2: K Sanjay Abhiroop, 231CS128, karumanchisanjay.231cs128@nitk.edu.in
+  > Member-2: K Sanjay Abhiroop, 231CS128, karumanchisanjay.231cs128@nitk.edu.in
 
-  > Member-3: Pranav Gujjar, 231CS143, pranavgujjar.231cs143@nitk.edu.in
+  > Member-3:	Pranav Gujjar, 231CS143, pranavgujjar.231cs143@nitk.edu.in
+
 </details>
 
 <!-- Second Section -->
@@ -49,37 +48,53 @@ The game of mines is a chance-based game often played in gambling events, where 
 
 </details>
 
-<!-- Third Section -->
+
+
+## Functional Block Diagram
+<details>
+  <summary>Detail</summary>  
+
+
+</details>
+
 ## Working
-<details>
-  <summary>Detail</summary>
 
-  > Explain the working of your model with the help of a functional table (compulsory) followed by the flowchart.
+<details>
+
+<summary>Detail</summary>
+
+### working
+
+### functional table
+
+### flowchart
+
+
+
 </details>
 
-<!-- Fourth Section -->
+
 ## Logisim Circuit Diagram
-<details>
-  <summary>Detail</summary>
 
-  > Update a neat logisim circuit diagram
-</details>
-
-<!-- Fifth Section -->
-## Verilog Code
 <details>
-  <summary>Detail</summary>
-  > Neatly update the Verilog code in code style only.
+
+<summary>Detail</summary>
   
-  ### Test bench File
-
 </details>
 
+## Verilog Code
 
+<details>
+
+<summary>Detail</summary>
+  
+### Test bench File
+
+</details>
 
 ## References
 <details>
 
-  <summary>Click to view</summary>
+  <summary>Detail</summary>
   
 </details>
