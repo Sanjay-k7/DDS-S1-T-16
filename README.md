@@ -72,3 +72,14 @@ The game of mines is a chance-based game often played in gambling events, where 
 
   > Neatly update the Verilog code in code style only.
 </details>
+
+### Test bench File
+
+</details>
+
+## References
+<details>
+
+  <summary>Click to view</summary>
+  
+</details>
