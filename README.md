@@ -53,7 +53,7 @@ The game of mines is a chance-based game often played in gambling events, where 
 ## Functional Block Diagram
 <details>
   
-
+![Functional Block Diagram](https://github.com/user-attachments/assets/a7967e7e-5d18-4464-b144-11841c8a2010)
   <summary>Detail</summary>  
 
 
