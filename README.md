@@ -56,7 +56,7 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 ## Functional Block Diagram
 <details>
   
-![Functional Block Diagram](https://github.com/user-attachments/assets/a7967e7e-5d18-4464-b144-11841c8a2010)
+![Untitled design](https://github.com/user-attachments/assets/85f1f9ee-6fd4-40bd-ba26-bb3e7a09deec)
   <summary>Detail</summary>  
 
 
