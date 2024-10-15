@@ -94,15 +94,20 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 ## Logisim Circuit Diagram
 
 <details>
-
+  
+### Random Number Generator:
 ![random number generator](https://github.com/user-attachments/assets/4b1b08b5-4a0c-48a8-8b2d-32a470ef46e0)
 
+### Grid Module:
 ![Grids](https://github.com/user-attachments/assets/29c9076e-02c9-4b55-95c3-7acae7c9d50b)
 
+### D-Flip Flop Module:
 ![d-flip-flop](https://github.com/user-attachments/assets/4da4167e-9b70-4bbe-a2f7-f4781b2a872b)
 
+### Output Generator Module:
 ![output](https://github.com/user-attachments/assets/24f10f13-723f-45fb-bb13-24e575163ba7)
 
+### Main Module:
 ![main](https://github.com/user-attachments/assets/7e8a39bf-4eeb-4a2f-b14a-7d1de2094487)
 
 <summary>Detail</summary>
