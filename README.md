@@ -139,6 +139,31 @@ This is the main module where we can play the game by following the steps writte
 ## Verilog Code
 
 <details>
+<summary>Detail</summary>
+
+  module priority_encoder_8to3 (
+    input [7:0] in,
+    output [2:0] out
+);
+
+    wire in_high, in_mid;
+    wire in7_or_in6, in7_or_in6_or_in5, in7_or_in6_or_in5_or_in4, in3_or_in2, not_in6, not_in_high, not_in_mid;
+
+
+    or (in7_or_in6, in[7], in[6]);
+    or (in7_or_in6_or_in5, in7_or_in6, in[5]);
+    or (in_high, in7_or_in6_or_in5, in[4]);
+
+
+    or (in3_or_in2, in[3], in[2]);
+    assign in_mid = in3_or_in2;
+
+
+    and (out[2], in_high);
+
+    not (not_in_high, in_high);
+    and (Y1_mid_term, not_in_high, in_mid);
+    or (Y1_or_term, in[7], in[6], Y1_mid_term);
 
 <summary>Detail</summary>
   
