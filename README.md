@@ -68,6 +68,8 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 
 <summary>Detail</summary>
 
+### Instructions to Use the Circuit:
+
 • Click on reset before starting the game.
 
 • Click on Set Bomb to set 1 bomb, the game can be played now. Repeat this process to set multiple bombs. The number of bombs will be displayed on the screen.
@@ -82,10 +84,30 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 
 • Click on reset to restart the game.
 
-### functional table
+## Working of Modules:
+
+### Random number generator: 
+Generates a random number using linear feedback shift register (LFSR). It keeps on repeating numbers from 1 to 15 randomly and we will lock a number randomly by clicking on the Set Bomb button. The bit keeps shifting while the first bit is the XOR of last two digits.
+
+### Score Counter Module:
+It uses j-k flip flops where the output of one flip flop is given as clock for next flip flop and it increases when there is a change in input. The change in input is recorded by using d flip flop.
+The counter can count from 0 to 15. It basically increments its value by 1 every time the user opens a box without a bomb. It is essential to know whether the user won or lost the game.
+
+### Grid Module:
+This records the placement of those bombs from random number generator using d - flip flops and records the number of bombs using counter.
+
+### D-Flip Flop Module:
+It takes in the input from the decoder, bomb placement module and game over condition. The output will be 1 if that box is opened or the game is finished and a bomb is present in that location. The other output will be 1 if the bomb is present in that box and the box is opened.
+
+### Output Module:
+This takes in the inputs and opens the box assigned with that number. The game over condition will be reached if any one of the boxes with bomb is opened. i.e., We use And gate to check if bomb is present and the box is opened. Game won condition is reached when (16 -number of bombs) boxes are opened. This number is obtained by subtracter and is kept track using counter.
+
+### Main Module:
+This is the main module where we can play the game by following the steps written in Simulation. It involves the Output module which shows all the boxes, it’s state and final game winning or losing condition
 
 ### flowchart
 
+![Untitled design](https://github.com/user-attachments/assets/85f1f9ee-6fd4-40bd-ba26-bb3e7a09deec)
 
 
 </details>
