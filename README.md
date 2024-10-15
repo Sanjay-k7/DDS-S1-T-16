@@ -68,7 +68,19 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 
 <summary>Detail</summary>
 
-### working
+• Click on reset before starting the game.
+
+• Click on Set Bomb to set 1 bomb, the game can be played now. Repeat this process to set multiple bombs. The number of bombs will be displayed on the screen.
+
+• After you set certain number of bombs, you can start opening the boxes.
+
+• Enter the 4- bit input which is assigned to the corresponding box in column major order. Then click on the confirm button to lock in the answer.
+
+• The Game Over output will be lit and all the bombs will be displayed if the user encounters a bomb or else, the person can keep giving the inputs.
+
+• If the user enters all the inputs other than the bombs, Game Won output will be lit.
+
+• Click on reset to restart the game.
 
 ### functional table
 
@@ -82,6 +94,16 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 ## Logisim Circuit Diagram
 
 <details>
+
+![random number generator](https://github.com/user-attachments/assets/4b1b08b5-4a0c-48a8-8b2d-32a470ef46e0)
+
+![Grids](https://github.com/user-attachments/assets/29c9076e-02c9-4b55-95c3-7acae7c9d50b)
+
+![d-flip-flop](https://github.com/user-attachments/assets/4da4167e-9b70-4bbe-a2f7-f4781b2a872b)
+
+![output](https://github.com/user-attachments/assets/24f10f13-723f-45fb-bb13-24e575163ba7)
+
+![main](https://github.com/user-attachments/assets/7e8a39bf-4eeb-4a2f-b14a-7d1de2094487)
 
 <summary>Detail</summary>
   
