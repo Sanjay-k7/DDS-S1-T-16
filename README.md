@@ -141,26 +141,27 @@ This is the main module where we can play the game by following the steps writte
 <details>
 <summary>Detail</summary>
 
- module d_ff (
-    input clk,         
-    input d,            
-    input reset,       
-    output reg q        
-);
+     module d_ff (
+     input clk,         
+     input d,            
+     input reset,       
+     output reg q        
+    );
+
     always @(posedge clk or posedge reset) begin
         if (reset)
             q <= 0;    
         else
             q <= d;     
     end
-endmodule
+    endmodule
 
-//Linear feedback shift register
     module rng (
-        input clk,
-        input reset,
-        output reg [3:0] random_num
+     input clk,
+     input reset,
+     output reg [3:0] random_num
     );
+
         always @(posedge clk ) begin
             if (reset)
                 random_num <= 4'b1001;  
@@ -173,17 +174,17 @@ endmodule
         end
     endmodule
 
-module multi_bomb_placement (
-    input wire clk,
-    input wire reset,
-    input wire [3:0] bomb_count,  
-    output reg [15:0] bomb_grid   
-);
-    reg [3:0] placed_bombs [0:15]; 
-    reg [3:0] idx;                 
-    integer i, j;
+    module multi_bomb_placement (
+     input wire clk,
+     input wire reset,
+     input wire [3:0] bomb_count,  
+     output reg [15:0] bomb_grid   
+    );
+     reg [3:0] placed_bombs [0:15]; 
+     reg [3:0] idx;                 
+     integer i, j;
 
-    reg [3:0] rand_idx;
+     reg [3:0] rand_idx;
 
     always @(posedge clk or posedge reset) begin
         if (reset) begin
@@ -208,28 +209,26 @@ module multi_bomb_placement (
             end
         end
     end
-endmodule
+    endmodule
 
-
-
-module decoder_4x16 (
-    input [3:0] select,         
-    output reg [15:0] out      
-);
+    module decoder_4x16 (
+     input [3:0] select,         
+     output reg [15:0] out      
+    );
     always @(*) begin
         out = 16'b0;
         out[select] = 1;       
     end
-endmodule
+    endmodule
 
-module grid (
-    input clk,
-    input reset,
-    input [15:0] bomb_grid,      
-    output [15:0] bomb_status    
-);
-    genvar i;
-    generate
+    module grid (
+     input clk,
+     input reset,
+     input [15:0] bomb_grid,      
+     output [15:0] bomb_status    
+    );
+     genvar i;
+     generate
         for (i = 0; i < 16; i = i + 1) begin : grid
             d_ff dff (
                 .clk(clk),
@@ -238,26 +237,14 @@ module grid (
                 .q(bomb_status[i])  
             );
         end
-    endgenerate
-endmodule
+     endgenerate
+    endmodule
 
-//Takes input from the user
-module user_input_decoder (
-    input [3:0] user_input,    
-    output reg [15:0] select  
-);
-    always @(*) begin
-        select = 16'b0;            
-        select[user_input] = 1;  
-    end
-endmodule
-
-//Module which shows Game-over
-module bomb_detector (
+    module bomb_detector (
     input [15:0] bomb_status,    
     input [15:0] chosen_cell, 
     output reg game_over         
-);
+    );
     always @(*) begin
         game_over = 0;
 
@@ -266,16 +253,15 @@ module bomb_detector (
             game_over = 1;  
         end
     end
-endmodule
+    endmodule
 
-//Counter to show number of cells opened
-module safe_counter (
-    input clk,
-    input reset,
-    input safe_revealed,       
-    output reg [3:0] count,     
-    output win                  
-);
+    module safe_counter (
+     input clk,
+     input reset,
+     input safe_revealed,       
+     output reg [3:0] count,     
+     output win                  
+    );
     always @(posedge clk or posedge reset) begin
         if (reset)
             count <= 0;
@@ -284,15 +270,53 @@ module safe_counter (
     end
 
     assign win = (count == 12); 
-endmodule
+    endmodule
 
 
-
-
-<summary>Detail</summary>
-  
 ### Test bench File
 
+    module game_of_mines_tb;
+    reg clk;
+    reg reset;
+    reg [3:0] bomb_count;  
+    wire [15:0] bomb_grid; 
+
+   
+    multi_bomb_placement uut (
+        .clk(clk),
+        .reset(reset),
+        .bomb_count(bomb_count),
+        .bomb_grid(bomb_grid)  
+    );
+
+   
+    always #5 clk = ~clk; 
+
+    initial begin
+       
+        clk = 0;
+        reset = 1;
+        bomb_count = 4; 
+ 
+        #10 reset = 0;
+        #10;
+        display_bomb_status(bomb_grid);
+            
+        #100 $finish;
+    end
+
+   
+    task display_bomb_status(input [15:0] grid);
+        integer i;
+        for (i = 0; i < 16; i = i + 1) begin
+            if (grid[i] == 1'b1) begin
+                $display("Bomb detected at (%0d, %0d)", i / 4, i % 4);
+            end else begin
+                $display("Safe cell is present at (%0d, %0d)", i / 4, i % 4);
+            end
+        end
+    endtask
+    endmodule
 </details>
 
 ## References
