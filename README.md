@@ -143,9 +143,8 @@ This is the main module where we can play the game by following the steps writte
 
 ![main](https://github.com/user-attachments/assets/5d873b13-d9e2-402c-af03-328cb3462bad)
 
-
 ### Random Number Generator:
-![random number generator](https://github.com/user-attachments/assets/4b1b08b5-4a0c-48a8-8b2d-32a470ef46e0)
+![random number generator](https://github.com/user-attachments/assets/839a1909-e74d-47a7-be09-a0de5cadc206)
 
 ### Grid Module:
 ![Grids](https://github.com/user-attachments/assets/29c9076e-02c9-4b55-95c3-7acae7c9d50b)
