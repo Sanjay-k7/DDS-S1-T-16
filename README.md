@@ -86,6 +86,10 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 
 ## Working of Modules:
 
+### Main Module:
+This is the main module where we can play the game by following the steps written in Simulation. It involves the Output module which shows all the boxes, it’s state and final game winning or losing condition
+![Main table](https://github.com/user-attachments/assets/72a8a24c-9825-4ce6-9455-504eaa50f1a5)
+
 ### Random number generator: 
 Generates a random number using linear feedback shift register (LFSR). It keeps on repeating numbers from 1 to 15 randomly and we will lock a number randomly by clicking on the Set Bomb button. The bit keeps shifting while the first bit is the XOR of last two digits.
 
@@ -102,8 +106,6 @@ It takes in the input from the decoder, bomb placement module and game over cond
 ### Output Module:
 This takes in the inputs and opens the box assigned with that number. The game over condition will be reached if any one of the boxes with bomb is opened. i.e., We use And gate to check if bomb is present and the box is opened. Game won condition is reached when (16 -number of bombs) boxes are opened. This number is obtained by subtracter and is kept track using counter.
 
-### Main Module:
-This is the main module where we can play the game by following the steps written in Simulation. It involves the Output module which shows all the boxes, it’s state and final game winning or losing condition
 
 ### flowchart
 
