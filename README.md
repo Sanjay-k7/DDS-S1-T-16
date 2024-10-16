@@ -89,7 +89,7 @@ The Game of Mines is a modern take on the classic Minesweeper concept, a grid-ba
 ### Main Module:
 This is the main module where we can play the game by following the steps written in Simulation. It involves the Output module which shows all the boxes, it’s state and final game winning or losing condition
 
-![d-flip-flop](https://github.com/user-attachments/assets/fe4ef514-b3f0-4c3b-8817-7abbe0abc76c)
+![Main table](https://github.com/user-attachments/assets/0571d322-03c7-443c-b9ac-a0aa61911c87)
 
 
 
@@ -151,7 +151,7 @@ This is the main module where we can play the game by following the steps writte
 ![Grids](https://github.com/user-attachments/assets/29c9076e-02c9-4b55-95c3-7acae7c9d50b)
 
 ### D-Flip Flop Module:
-![d-flip-flop](https://github.com/user-attachments/assets/4da4167e-9b70-4bbe-a2f7-f4781b2a872b)
+![d-flip-flop](https://github.com/user-attachments/assets/d05ac661-15f2-4c5e-bb69-ea4a6f7729ba)
 
 ### Output Generator Module:
 ![output](https://github.com/user-attachments/assets/24f10f13-723f-45fb-bb13-24e575163ba7)
