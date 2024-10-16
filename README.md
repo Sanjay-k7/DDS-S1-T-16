@@ -109,7 +109,7 @@ It takes in the input from the decoder, bomb placement module and game over cond
 This takes in the inputs and opens the box assigned with that number. The game over condition will be reached if any one of the boxes with bomb is opened. i.e., We use And gate to check if bomb is present and the box is opened. Game won condition is reached when (16 -number of bombs) boxes are opened. This number is obtained by subtracter and is kept track using counter.
 
 
-### flowchart
+### Flowchart
 
 ![Untitled design](https://github.com/user-attachments/assets/85f1f9ee-6fd4-40bd-ba26-bb3e7a09deec)
 
@@ -139,6 +139,7 @@ This takes in the inputs and opens the box assigned with that number. The game o
 
 ### Main Module:
 This is the main module where we can play the game by following the steps written in Simulation. It involves the Output module which shows all the boxes, it’s state and final game winning or losing condition
+
 ![main](https://github.com/user-attachments/assets/5d873b13-d9e2-402c-af03-328cb3462bad)
 
 
