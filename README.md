@@ -117,7 +117,24 @@ This is the main module where we can play the game by following the steps writte
 
 <details>
   
+#### Instructions to Use the Circuit:
+
+• Click on reset before starting the game.
+
+• Click on Set Bomb to set 1 bomb, the game can be played now. Repeat this process to set multiple bombs. The number of bombs will be displayed on the screen.
+
+• After you set certain number of bombs, you can start opening the boxes.
+
+• Enter the 4- bit input which is assigned to the corresponding box in column major order. Then click on the confirm button to lock in the answer.
+
+• The Game Over output will be lit and all the bombs will be displayed if the user encounters a bomb or else, the person can keep giving the inputs.
+
+• If the user enters all the inputs other than the bombs, Game Won output will be lit.
+
+• Click on reset to restart the game.
+
 ### Main Module:
+This is the main module where we can play the game by following the steps written in Simulation. It involves the Output module which shows all the boxes, it’s state and final game winning or losing condition
 ![main](https://github.com/user-attachments/assets/7e8a39bf-4eeb-4a2f-b14a-7d1de2094487)
 
 ### Random Number Generator:
