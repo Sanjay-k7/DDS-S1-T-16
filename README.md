@@ -138,7 +138,8 @@ This takes in the inputs and opens the box assigned with that number. The game o
 
 ### Main Module:
 This is the main module where we can play the game by following the steps written in Simulation. It involves the Output module which shows all the boxes, it’s state and final game winning or losing condition
-![main](https://github.com/user-attachments/assets/7e8a39bf-4eeb-4a2f-b14a-7d1de2094487)
+![main](https://github.com/user-attachments/assets/5d873b13-d9e2-402c-af03-328cb3462bad)
+
 
 ### Random Number Generator:
 ![random number generator](https://github.com/user-attachments/assets/4b1b08b5-4a0c-48a8-8b2d-32a470ef46e0)
