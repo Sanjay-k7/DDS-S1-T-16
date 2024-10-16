@@ -117,6 +117,9 @@ This is the main module where we can play the game by following the steps writte
 
 <details>
   
+### Main Module:
+![main](https://github.com/user-attachments/assets/7e8a39bf-4eeb-4a2f-b14a-7d1de2094487)
+
 ### Random Number Generator:
 ![random number generator](https://github.com/user-attachments/assets/4b1b08b5-4a0c-48a8-8b2d-32a470ef46e0)
 
@@ -129,8 +132,7 @@ This is the main module where we can play the game by following the steps writte
 ### Output Generator Module:
 ![output](https://github.com/user-attachments/assets/24f10f13-723f-45fb-bb13-24e575163ba7)
 
-### Main Module:
-![main](https://github.com/user-attachments/assets/7e8a39bf-4eeb-4a2f-b14a-7d1de2094487)
+
 
 <summary>Detail</summary>
   
