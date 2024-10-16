@@ -146,6 +146,9 @@ This is the main module where we can play the game by following the steps writte
 ### Random Number Generator:
 ![random number generator](https://github.com/user-attachments/assets/839a1909-e74d-47a7-be09-a0de5cadc206)
 
+### Score-Counter Module:
+![Counter ](https://github.com/user-attachments/assets/82d6bc12-5ac8-4f14-849e-d91cf4a7e0ee)
+
 ### Grid Module:
 ![Grids](https://github.com/user-attachments/assets/5e00db19-d765-47f4-b6c1-203672232b05)
 
