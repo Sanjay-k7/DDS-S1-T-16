@@ -147,13 +147,13 @@ This is the main module where we can play the game by following the steps writte
 ![random number generator](https://github.com/user-attachments/assets/839a1909-e74d-47a7-be09-a0de5cadc206)
 
 ### Grid Module:
-![Grids](https://github.com/user-attachments/assets/29c9076e-02c9-4b55-95c3-7acae7c9d50b)
+![Grids](https://github.com/user-attachments/assets/5e00db19-d765-47f4-b6c1-203672232b05)
 
 ### D-Flip Flop Module:
 ![d-flip-flop](https://github.com/user-attachments/assets/d05ac661-15f2-4c5e-bb69-ea4a6f7729ba)
 
 ### Output Generator Module:
-![output](https://github.com/user-attachments/assets/24f10f13-723f-45fb-bb13-24e575163ba7)
+![output](https://github.com/user-attachments/assets/a18dec8e-58aa-447a-a6ce-a093a7ecc9c9)
 
 
 
