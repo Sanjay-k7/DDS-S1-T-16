@@ -167,6 +167,7 @@ This is the main module where we can play the game by following the steps writte
 ## Hardware Circuit
 <details>
   <summary>Detail</summary>
+  
   ![project hardware](https://github.com/user-attachments/assets/565468f0-93d5-4c50-9174-592d5ffe6a91)
 
 </details>
