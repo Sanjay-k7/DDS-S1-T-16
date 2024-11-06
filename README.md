@@ -164,6 +164,13 @@ This is the main module where we can play the game by following the steps writte
   
 </details>
 
+## Hardware Circuit
+<details>
+  <summary>Detail</summary>
+  ![project hardware](https://github.com/user-attachments/assets/ada08892-e0ec-49b7-9c97-3f5d7f99b804)
+
+</details>
+
 ## Verilog Code
 
 <details>
