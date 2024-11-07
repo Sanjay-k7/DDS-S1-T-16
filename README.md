@@ -164,20 +164,7 @@ This is the main module where we can play the game by following the steps writte
   
 </details>
 
-## Hardware Circuit
-<details>
-  <summary>Detail</summary>
-  
-![project hardware](https://github.com/user-attachments/assets/5fc17524-2756-4f8c-b231-751bdc9ce361)
 
-HARDWARE IMPLEMENTATION
-•	Our project named game of mines is a game where the user inputs any number of bombs in the given number of boxes and then proceeds to open the boxes while trying to open all the safe boxes leading to victory while avoiding the box with bomb which on opening will lead to defeat.
-
-•	During the Logisim implementation, we constructed the circuit such that user could input any number of bombs from 1 to 15 and open the boxes without worrying about opening a duplicate. i.e., opening the same box twice. And, also in the case of game over situation, the output shows the location of all the bombs.
-
-•	Due to the complexity of this circuit which is harder to implement through hardware, we reduced the circuit such that only one bomb could be placed among the 4 boxes and the boxes can be opened. Since there is only one bomb present, the bomb will not be shown at the end of the game. These complexities are reduced in hardware implementation.
-
-</details>
 
 ## Verilog Code
 
@@ -360,6 +347,21 @@ HARDWARE IMPLEMENTATION
         end
     endtask
     endmodule
+</details>
+
+## Hardware Circuit
+<details>
+  <summary>Detail</summary>
+  
+![project hardware](https://github.com/user-attachments/assets/5fc17524-2756-4f8c-b231-751bdc9ce361)
+
+HARDWARE IMPLEMENTATION
+•	Our project named game of mines is a game where the user inputs any number of bombs in the given number of boxes and then proceeds to open the boxes while trying to open all the safe boxes leading to victory while avoiding the box with bomb which on opening will lead to defeat.
+
+•	During the Logisim implementation, we constructed the circuit such that user could input any number of bombs from 1 to 15 and open the boxes without worrying about opening a duplicate. i.e., opening the same box twice. And, also in the case of game over situation, the output shows the location of all the bombs.
+
+•	Due to the complexity of this circuit which is harder to implement through hardware, we reduced the circuit such that only one bomb could be placed among the 4 boxes and the boxes can be opened. Since there is only one bomb present, the bomb will not be shown at the end of the game. These complexities are reduced in hardware implementation.
+
 </details>
 
 ## References
